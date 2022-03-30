@@ -49,6 +49,8 @@ spec:
   podSelector:
     matchLabels:
       app: web
+  policyTypes:
+  - Ingress
   ingress:
   - from:
     - namespaceSelector:
